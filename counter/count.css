@@ -1,0 +1,115 @@
+
+body{
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+  }
+
+.box {
+    max-width: 400px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.527);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    
+  }
+
+  .box1 {
+    max-width: 400px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    
+  }
+  .box3 {
+    max-width: 400px;
+    margin: 30px ;
+    background: rgba(255, 255, 255, 0.527);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    
+  }
+.count-save{
+    display: block;
+}
+.btn{
+    padding-left: 10px;
+
+}
+#heading {
+    background-color: #A683E3;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #heading1 {
+    background-color: #A683E3;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #heading3 {
+    background-color: #A683E3;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .age{
+    text-align: center;
+  }
+  
+  .item {
+    min-height: 70px;
+    display: flex;
+    color: black;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+  }
+
+h2{
+    text-align: center;
+    padding-top: 5%;
+}
+p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+  }
+.button {
+    min-height: 20px;
+    width: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #A683E3;
+    color: rgb(255, 255, 255);
+    padding-bottom: 6px;
+   
+    border-width: 0;
+  }
+
+
+
+
+  footer {
+    color: white;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+
+
+@media screen and (max-width: 720px) { 
+
+    .box{
+        margin-left: 10%;
+    margin-right: 10%;
+
+    }
+}
